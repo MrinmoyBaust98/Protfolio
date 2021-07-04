@@ -6,7 +6,6 @@ body{
 h1{
     font-family: 'Otomanopee One', sans-serif;
     font-size: 50px;
-    padding-top: 10px;
 }
 h3{
     font-family: 'Indie Flower', cursive;
@@ -18,14 +17,19 @@ section{
     display: flex;
 }
 .hulf-part{
-    width: 50%;
+    width: 65%;
     padding-left: 7%;
+    padding-top: 20px;
 }
-.hulf-part img{
+.hulf-part1 img{
     border-radius: 50%;
     height: 300px;
-    width: 320px;
-    border: red solid 3px;
+    width: 320px; 
+}
+.hulf-part1{
+    width: 50%;
+    padding-left: 13%;
+    padding-top: 8%;
 }
 .hilight_name{
     color: rgb(168, 126, 9);
@@ -36,10 +40,10 @@ section{
 }
 .find_me{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
-    color: white;
+    color: blue;
     background: #FE6700;
-    padding: 8px 16px;
+    padding: 6px 12px;
     border-radius: 7px;
 }
