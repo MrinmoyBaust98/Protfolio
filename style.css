@@ -1,3 +1,45 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
 h1{
-    color:blue;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 50px;
+    padding-top: 10px;
+}
+h3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(21, 38, 133);
+}
+section{
+    display: flex;
+}
+.hulf-part{
+    width: 50%;
+    padding-left: 7%;
+}
+.hulf-part img{
+    border-radius: 50%;
+    height: 300px;
+    width: 320px;
+    border: red solid 3px;
+}
+.hilight_name{
+    color: rgb(168, 126, 9);
+}
+.first_about{
+    font-size: 30px;
+    text-align: justify;
+}
+.find_me{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    background: #FE6700;
+    padding: 8px 16px;
+    border-radius: 7px;
 }
